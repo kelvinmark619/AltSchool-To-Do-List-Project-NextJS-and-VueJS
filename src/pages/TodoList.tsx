@@ -260,7 +260,7 @@ const TodoList = ({ toggleTheme, currentTheme }) => {
     <main className="todo-list-container">
       <div className="todo-list-wrapper">
         <header className="todo-list-header">
-          <h2>ALICE TASK BOARD </h2>
+          <h2>Sticky Wall</h2>
           <div className="header-controls-row">
             <Button
               type="primary"
