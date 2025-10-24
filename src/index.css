@@ -1,58 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Caveat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 
 :root {
-    --bg-primary: #F8F8F8;
+    --bg-primary: #FAF5EF;
     --bg-surface: #FFFFFF;
-    --border-light: #E0E0E0;
-    --bg-input: #F0F0F0;
-    --text-dark: #333333;
-    --text-medium: #666666;
+    --border-light: #DAD2C7;
+    --bg-input: #EFE9E2;
+    --text-dark: #2E2A26;
+    --text-medium: #7B6E64;
     --text-light: #FFFFFF;
-    --text-black: #1A1A1A;
-    --text-link: #007bff;
-    --shadow-small: rgba(0, 0, 0, 0.05);
-    --shadow-medium: rgba(0, 0, 0, 0.1);
-    --shadow-strong: rgba(0, 0, 0, 0.15);
-    --card-bg-color: #CCEEFF;
-    --card-border-color: #99DDFF;
-    --accent-green: #28a745;
-    --accent-green-dark: #218838;
-    --accent-red: #dc3545;
-    --accent-red-dark: #c82333;
-    --accent-blue: #007bff;
-    --accent-blue-dark: #0056b3;
-    --status-completed-color: #104a88;
-    --status-pending-color: #c142bb;
+    --text-black: #1B1B1B;
+    --text-link: #B75590;
+    --shadow-small: rgba(55, 25, 10, 0.05);
+    --shadow-medium: rgba(55, 25, 10, 0.1);
+    --shadow-strong: rgba(55, 25, 10, 0.15);
+    --card-bg-color: #FFEDE6;
+    --card-border-color: #FFDAC9;
+    --accent-green: #7CB518;
+    --accent-green-dark: #5D8A0B;
+    --accent-red: #E63946;
+    --accent-red-dark: #B02A37;
+    --accent-blue: #3A86FF;
+    --accent-blue-dark: #265DC5;
+    --status-completed-color: #3A86FF;
+    --status-pending-color: #FF8C42;
 }
 
+
+
+
 html[data-theme='dark'] {
-    --bg-primary: #1A1A1A;
-    --bg-surface: #2C2C2C;
-    --border-light: #444444;
-    --bg-input: #3A3A3A;
-    --text-dark: #E0E0E0;
-    --text-medium: #BBBBBB;
-    --text-light: #1A1A1A;
+    --bg-primary: #14110F;
+    --bg-surface: #1C1816;
+    --border-light: #3A2E2A;
+    --bg-input: #2B2523;
+    --text-dark: #EFEAE6;
+    --text-medium: #AFA59F;
+    --text-light: #1C1816;
     --text-black: #FFFFFF;
-    --text-link: #69C0FF;
-    --shadow-small: rgba(255, 255, 255, 0.05);
-    --shadow-medium: rgba(255, 255, 255, 0.1);
-    --shadow-strong: rgba(255, 255, 255, 0.15);
-    --card-bg-color: #1E3A5F;
-    --card-border-color: #2C4875;
-    --accent-green: #4CAF50;
-    --accent-green-dark: #388E3C;
-    --accent-red: #DC3545;
-    --accent-red-dark: #C82333;
-    --accent-blue: #64B5F6;
-    --accent-blue-dark: #42A5F5;
-    --status-completed-color: #64B5F6;
-    --status-pending-color: #BA68C8;
+    --text-link: #FF70A6;
+    --shadow-small: rgba(255, 240, 230, 0.05);
+    --shadow-medium: rgba(255, 240, 230, 0.1);
+    --shadow-strong: rgba(255, 240, 230, 0.15);
+    --card-bg-color: #332C2A;
+    --card-border-color: #4A3F3B;
+    --accent-green: #A8DADC;
+    --accent-green-dark: #75C9C9;
+    --accent-red: #EF476F;
+    --accent-red-dark: #D8345F;
+    --accent-blue: #118AB2;
+    --accent-blue-dark: #0C6D91;
+    --status-completed-color: #118AB2;
+    --status-pending-color: #FFB627;
 }
+
+
+
+
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--bg-primary);
@@ -70,18 +79,4 @@ body {
     outline: 2px solid var(--accent-blue);
     outline-offset: 2px;
     border-radius: 4px;
-}
-footer {
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    color: var(--text-medium);
-    border-top: 1px solid var(--border-light);
-}
-
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
 }
