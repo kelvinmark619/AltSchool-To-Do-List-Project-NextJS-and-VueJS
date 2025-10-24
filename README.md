@@ -1,55 +1,90 @@
-# AltSchool To‑Do List Project
-A simple, user-friendly to‑do list app built to help users manage tasks efficiently.
+# AltSchool To-Do List Project (Next.js & Vue.js)
 
-## Features
-- Add, edit, and delete tasks
-- Mark tasks as completed
-- Responsive UI for web and mobile
-- Live deployment: https://alt-school-to-do-list-project.vercel.app/
+A simple, interactive **To-Do List application** built with **Next.js (TypeScript)** and **Vue.js**. This project demonstrates full-stack modern front-end development with multiple branch workflows and live deployments using Vercel.
 
-## Tech Stack & Architecture
-- Frontend: HTML5, CSS3, JavaScript (ES6+)
-- Storage: RESTful API
-- Hosting: Vercel 
-- Architecture: Separation of concerns with clear modules for UI, state management, and persistence
+---
 
-## Installation & Setup
-* Clone the repo
-- git clone https://github.com/kelvinmark619/AltSchool-To-do-List-Project.git
-- cd AltSchool-To-do-List-Project
+## 🛠 Features
 
-* Frontend:
-- cd frontend
-- npm install
-- npm run dev
+* Add, edit, and delete tasks
+* Mark tasks as completed
+* Separate branches for **Next.js** and **Vue.js** implementations
+* Responsive design for desktop and mobile
+* Live preview deployments via Vercel
 
-## Available Scripts
-- From the project root:
+---
 
-Script =>	Description
-- npm run dev =>	Start the development server
-- npm run build	=> Bundle optimized production assets
-- npm run start =>	Launch the backend server
-- npm test => Run unit/integration tests
+## 🧑‍💻 Technologies Used
 
-## API Documentation
-- GET /tasks – retrieve all tasks
-- POST /tasks – add a new task
-- PUT /tasks/:id – update a task
-- DELETE /tasks/:id – remove a task
+* **Frontend:** Next.js (TypeScript), Vue.js
+* **State Management:** React useState / Vue reactive state
+* **Styling:** CSS / Tailwind CSS
+* **Hosting/Deployment:** Vercel
+* **Version Control:** Git & GitHub
 
-## Known Issues
-- No user authentication—data persists only in this browser/session
-- No backend: local storage may be cleared on browser reset
-- Missing validation (e.g., empty input, duplicate tasks
-- UI enhancements and accessibility improvements needed
+---
 
-## Future Enhancements
-- Add backend + database (e.g., Firebase, Express + MongoDB)
-- Implement user authentication and personalization
-- Support task due dates and reminder notifications
-- Categorize tasks (e.g., work, personal)
-- Improve UI/UX and mobile responsiveness
-- Add filtering, sorting, search functionality
-- Add task sharing & collaboration features
-- Include analytics (completed tasks per week, etc.)
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kelvinmark619/AltSchool-To-Do-List-Project-NextJS-and-VueJS.git
+```
+
+### 2. Navigate into the project folder
+
+```bash
+cd MyTo-do-list-main  
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+* Open your browser at `http://localhost:5173` (or the port shown in the terminal) to view the app.
+
+---
+
+## 🌐 Branch Deployments (Vercel)
+
+* **Main branch:** Production deployment
+* **nextjs-migration branch:** Next.js version preview
+* **vue-migration branch:** Vue.js version preview
+
+Vercel automatically deploys each branch and provides a live URL.
+
+---
+
+## 📂 Project Structure
+
+```
+MyTo-do-list-main/
+├─ public/          # Static files
+├─ src/             # Components & app logic
+├─ package.json     # Project metadata & dependencies
+├─ tsconfig.json    # TypeScript config
+├─ vite.config.ts   # Vite build config
+├─ README.md        # Project documentation
+```
+
+---
+
+## 💡 Contribution
+
+1. Fork the repository
+2. Create your branch: `git checkout -b feature-name`
+3. Make your changes and commit: `git commit -m "Add feature"`
+4. Push to the branch: `git push origin feature-name`
+5. Open a pull request on GitHub
+
+---
+
