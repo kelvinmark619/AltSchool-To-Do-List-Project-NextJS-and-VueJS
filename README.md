@@ -1,70 +1,90 @@
-## React Todo App with JSONPlaceholder Integration
+# AltSchool To-Do List Project (Next.js & Vue.js)
 
-A modern, responsive Todo web application built using React 19, TanStack Query, and JSONPlaceholder API. This project showcases key front-end development skills including routing, API integration, state management, pagination, search/filter, CRUD operations, accessibility, and clean UI/UX using Vanila CSS with BEM methodology.
+A simple, interactive **To-Do List application** built with **Next.js (TypeScript)** and **Vue.js**. This project demonstrates full-stack modern front-end development with multiple branch workflows and live deployments using Vercel.
 
-## Live Demo
-.visit the live link : https://my-to-do-list-umber-one.vercel.app/
-.github repo: https://github.com/Alicedicey/MyTo-do-list
+---
 
-📌 Features
-  -✅ View all todos with client-side pagination (10 per page)
+## 🛠 Features
 
-  -🔍 Search todos by title
+* Add, edit, and delete tasks
+* Mark tasks as completed
+* Separate branches for **Next.js** and **Vue.js** implementations
+* Responsive design for desktop and mobile
+* Live preview deployments via Vercel
 
-  -🎯 Filter by completion status (All, Completed, Incomplete)
+---
 
-  -🔎 Detail view for each todo
+## 🧑‍💻 Technologies Used
 
-  -⚙ CRUD functionality (Edit, Delete, View)
+* **Frontend:** Next.js (TypeScript), Vue.js
+* **State Management:** React useState / Vue reactive state
+* **Styling:** CSS / Tailwind CSS
+* **Hosting/Deployment:** Vercel
+* **Version Control:** Git & GitHub
 
-  -🔁 Error boundaries and custom 404 page
+---
 
-  -💻 Responsive layout and accessible navigation
+## 🚀 Getting Started
 
-  -⚡ Loading and error states for all API calls
+### 1. Clone the repository
 
-  -💾 Local caching of API responses
+```bash
+git clone https://github.com/kelvinmark619/AltSchool-To-Do-List-Project-NextJS-and-VueJS.git
+```
 
-  -📦 Clean and maintainable project structure
+### 2. Navigate into the project folder
 
- ## 🛠 Installation & Setup Instructions
+```bash
+cd MyTo-do-list-main  
+```
 
- 1. Clone the repository
-git clone https://github.com/Alice_dicey/To-do-list.git
-cd To-do-list
+### 3. Install dependencies
 
-2. Install dependencies
+```bash
 npm install
+```
 
-3. Start development server
-npm run dev
+### 4. Run the development server
 
-📂 Project Structure
-To-do-main/
-├── public/
-├── src/
-│   ├── components/       
-│   ├── pages/             
-│   ├── Assets/          
-│   ├── styles/             
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-|__ .gitignore
-|__ eslint.config.js
-|__ index.html
-├── package.json
-|__ package-lock.json
-├── README.md
-└── vite.config.js
+```bash
+npm run dev
+```
 
- ## ⚠ KNOWN ISSUES
- JSONPlaceholder is a fakeAPI, so POST/PUT/DELETE won't persist
+* Open your browser at `http://localhost:5173` (or the port shown in the terminal) to view the app.
 
- ## 🧭  FUTURE IMPROVEMENT
- Integration with a real backend
+---
 
- ## 👨‍💻 Author
- Odunayo Alice Amoye
- Github: @Alicedicey
- Linkedin: Odunayo Amoye
+## 🌐 Branch Deployments (Vercel)
+
+* **Main branch:** Production deployment
+* **nextjs-migration branch:** Next.js version preview
+* **vue-migration branch:** Vue.js version preview
+
+Vercel automatically deploys each branch and provides a live URL.
+
+---
+
+## 📂 Project Structure
+
+```
+MyTo-do-list-main/
+├─ public/          # Static files
+├─ src/             # Components & app logic
+├─ package.json     # Project metadata & dependencies
+├─ tsconfig.json    # TypeScript config
+├─ vite.config.ts   # Vite build config
+├─ README.md        # Project documentation
+```
+
+---
+
+## 💡 Contribution
+
+1. Fork the repository
+2. Create your branch: `git checkout -b feature-name`
+3. Make your changes and commit: `git commit -m "Add feature"`
+4. Push to the branch: `git push origin feature-name`
+5. Open a pull request on GitHub
+
+---
+
