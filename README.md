@@ -1,70 +1,55 @@
-## React Todo App with JSONPlaceholder Integration
+# AltSchool To‑Do List Project
+A simple, user-friendly to‑do list app built to help users manage tasks efficiently.
 
-A modern, responsive Todo web application built using React 19, TanStack Query, and JSONPlaceholder API. This project showcases key front-end development skills including routing, API integration, state management, pagination, search/filter, CRUD operations, accessibility, and clean UI/UX using Vanila CSS with BEM methodology.
+## Features
+- Add, edit, and delete tasks
+- Mark tasks as completed
+- Responsive UI for web and mobile
+- Live deployment: https://alt-school-to-do-list-project.vercel.app/
 
-## Live Demo
-.visit the live link : https://my-to-do-list-umber-one.vercel.app/
-.github repo: https://github.com/Alicedicey/MyTo-do-list
+## Tech Stack & Architecture
+- Frontend: HTML5, CSS3, JavaScript (ES6+)
+- Storage: RESTful API
+- Hosting: Vercel 
+- Architecture: Separation of concerns with clear modules for UI, state management, and persistence
 
-📌 Features
-  -✅ View all todos with client-side pagination (10 per page)
+## Installation & Setup
+* Clone the repo
+- git clone https://github.com/kelvinmark619/AltSchool-To-do-List-Project.git
+- cd AltSchool-To-do-List-Project
 
-  -🔍 Search todos by title
+* Frontend:
+- cd frontend
+- npm install
+- npm run dev
 
-  -🎯 Filter by completion status (All, Completed, Incomplete)
+## Available Scripts
+- From the project root:
 
-  -🔎 Detail view for each todo
+Script =>	Description
+- npm run dev =>	Start the development server
+- npm run build	=> Bundle optimized production assets
+- npm run start =>	Launch the backend server
+- npm test => Run unit/integration tests
 
-  -⚙ CRUD functionality (Edit, Delete, View)
+## API Documentation
+- GET /tasks – retrieve all tasks
+- POST /tasks – add a new task
+- PUT /tasks/:id – update a task
+- DELETE /tasks/:id – remove a task
 
-  -🔁 Error boundaries and custom 404 page
+## Known Issues
+- No user authentication—data persists only in this browser/session
+- No backend: local storage may be cleared on browser reset
+- Missing validation (e.g., empty input, duplicate tasks
+- UI enhancements and accessibility improvements needed
 
-  -💻 Responsive layout and accessible navigation
-
-  -⚡ Loading and error states for all API calls
-
-  -💾 Local caching of API responses
-
-  -📦 Clean and maintainable project structure
-
- ## 🛠 Installation & Setup Instructions
-
- 1. Clone the repository
-git clone https://github.com/Alice_dicey/To-do-list.git
-cd To-do-list
-
-2. Install dependencies
-npm install
-
-3. Start development server
-npm run dev
-
-📂 Project Structure
-To-do-main/
-├── public/
-├── src/
-│   ├── components/       
-│   ├── pages/             
-│   ├── Assets/          
-│   ├── styles/             
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-|__ .gitignore
-|__ eslint.config.js
-|__ index.html
-├── package.json
-|__ package-lock.json
-├── README.md
-└── vite.config.js
-
- ## ⚠ KNOWN ISSUES
- JSONPlaceholder is a fakeAPI, so POST/PUT/DELETE won't persist
-
- ## 🧭  FUTURE IMPROVEMENT
- Integration with a real backend
-
- ## 👨‍💻 Author
- Odunayo Alice Amoye
- Github: @Alicedicey
- Linkedin: Odunayo Amoye
+## Future Enhancements
+- Add backend + database (e.g., Firebase, Express + MongoDB)
+- Implement user authentication and personalization
+- Support task due dates and reminder notifications
+- Categorize tasks (e.g., work, personal)
+- Improve UI/UX and mobile responsiveness
+- Add filtering, sorting, search functionality
+- Add task sharing & collaboration features
+- Include analytics (completed tasks per week, etc.)
