@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 :root {
-    --bg-primary: #F8F8F8;
+    --bg-primary: #FAF5EF;
     --bg-surface: #FFFFFF;
-    --border-light: #E0E0E0;
-    --bg-input: #F0F0F0;
-    --text-dark: #333333;
-    --text-medium: #666666;
+    --border-light: #DAD2C7;
+    --bg-input: #EFE9E2;
+    --text-dark: #2E2A26;
+    --text-medium: #7B6E64;
     --text-light: #FFFFFF;
-    --text-black: #1A1A1A;
-    --text-link: #007bff;
-    --shadow-small: rgba(0, 0, 0, 0.05);
-    --shadow-medium: rgba(0, 0, 0, 0.1);
-    --shadow-strong: rgba(0, 0, 0, 0.15);
-    --card-bg-color: #CCEEFF;
-    --card-border-color: #99DDFF;
-    --accent-green: #28a745;
-    --accent-green-dark: #218838;
-    --accent-red: #dc3545;
-    --accent-red-dark: #c82333;
-    --accent-blue: #007bff;
-    --accent-blue-dark: #0056b3;
-    --status-completed-color: #104a88;
-    --status-pending-color: #c142bb;
+    --text-black: #1B1B1B;
+    --text-link: #B75590;
+    --shadow-small: rgba(55, 25, 10, 0.05);
+    --shadow-medium: rgba(55, 25, 10, 0.1);
+    --shadow-strong: rgba(55, 25, 10, 0.15);
+    --card-bg-color: #FFEDE6;
+    --card-border-color: #FFDAC9;
+    --accent-green: #7CB518;
+    --accent-green-dark: #5D8A0B;
+    --accent-red: #E63946;
+    --accent-red-dark: #B02A37;
+    --accent-blue: #3A86FF;
+    --accent-blue-dark: #265DC5;
+    --status-completed-color: #3A86FF;
+    --status-pending-color: #FF8C42;
 }
 
 html[data-theme='dark'] {
