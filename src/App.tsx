@@ -28,9 +28,7 @@ const App: React.FC = () => {
           <Route path="/todos/:id" element={<TodoDetails />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <footer>
-          <p>Built by Odunayo Alt School Exam Project</p>
-        </footer>
+      
       </ErrorBoundary>
     </Router>
   );
